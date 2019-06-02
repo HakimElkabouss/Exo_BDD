@@ -1,0 +1,26 @@
+- Base de données : 
+    Une base de données est un conteneur stockant des données telles que des chiffres, des dates ou des mots.
+
+- SGDBR :
+    Une base de données relationnelle est une base de données où l'information est organisée dans des tableaux à deux dimensions appelés des relations.
+
+- Une table : 
+    Une table est un ensemble de données organisées sous forme d'un tableau où les colonnes correspondent à des catégories d'information.
+
+- Une colonne : 
+    Une colonne correspond à une catégorie d'informations.
+
+- Une clé primaire : 
+    Une clé primaire est la donnée qui permet d'identifier de manière unique un enregistrement dans une table.
+
+- Une clé étrangère : 
+    Une clé étrangère est une contrainte qui garantit l'intégrité référentielle entre deux tables.
+
+- Un index : 
+    Un index est un lot de données destiné à accélérer les opérations de recherche de données.
+
+- CRUD :
+    Désigne les quatre opérations de base pour la persistance des données ( CREATE, READ, UPDATE, DELETE ), en particulier le stockage d'informations en base de données.
+
+- Une jointure :
+    Les jointures en SQL permettent d’associer plusieurs tables dans une même requête.
