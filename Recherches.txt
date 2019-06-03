@@ -1,0 +1,16 @@
+- Qu’est ce qu’une transaction, un commit et un rollback ? (https://openclassrooms.com/fr/courses/1959476-administrez-vos-bases-de-donnees-avec-mysql/1970063-transactions)
+    --> Une transaction, c'est un ensemble de requêtes qui sont exécutées en un seul bloc. Ainsi, si une des requêtes du bloc échoue, on peut décider d'annuler tout le bloc de requêtes (ou de quand même valider les requêtes qui ont réussi).
+    --> Lorsque l'on valide les requêtes d'une transaction, on dit aussi que l'on COMMITE les changements. À l'inverse, l'annulation des requêtes s'appelle un ROLLBACK.
+
+- Qu’est-ce qu’une sous-requête? (https://sql.sh/cours/sous-requete)
+    --> une sous-requête (aussi appelé “requête imbriquée” ou “requête en cascade”) consiste à exécuter une requête à l’intérieur d’une autre requête.
+    --> SELECT *
+        FROM `table`
+        WHERE `nom_colonne` = (
+            SELECT `valeur`
+            FROM `table2`
+            LIMIT 1
+        ) 
+
+- Qu’est-ce qu’une vue ? (https://www.commentcamarche.net/contents/1071-sql-creation-de-vues)
+    --> Une vue est une table virtuelle, c'est-à-dire dont les données ne sont pas stockées dans une table de la base de données, et dans laquelle il est possible de rassembler des informations provenant de plusieurs tables.
